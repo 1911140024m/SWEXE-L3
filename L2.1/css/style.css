@@ -1,0 +1,53 @@
+#page {
+    width: 980px;
+    margin: 0 auto;
+}
+
+h2 {
+    background-color:#FFFFCC;
+    border-bottom: dashed 3px #555555;
+}
+
+#pageBody {
+    width: 720px;
+    float: left;
+}
+
+#pageSub{
+    width: 220px;
+    float: right;
+}
+
+#pageFooter{
+    text-align: center;
+    clear: both;
+    border-top: solid 1px #cccccc;
+}
+#img-center{
+   size: 10px;
+}
+
+#img-center{
+   margin: 0 auto;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 8px;
+    background-color: #dddddd;
+    color: #000;
+}
+
+nav li a:hover {
+    background-color: #555;
+    color: white;
+}

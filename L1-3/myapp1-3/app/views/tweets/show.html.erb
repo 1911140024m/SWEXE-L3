@@ -1,0 +1,7 @@
+<p>
+    <string>メッセージ</string>
+    <%= @twitter.message %><br>
+    <%= (Time.current - @twitter.created_at).to_i/60 %>分前
+</p>
+
+<%= link_to 'Back', :back %>

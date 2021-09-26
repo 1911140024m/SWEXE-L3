@@ -1,0 +1,14 @@
+<% if @twitter.errors.present? %>
+<h3>エラーがあります。</h3>
+<ul>
+    <% @twitter.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+    <% end %>
+</ul>
+<% end %>
+
+<%= form_for @twitter, tdate: {action: :create} do |f| %>
+    <%= f.label :message, 'メッセージ' %>
+    <%= f.text_field :message %>
+    <%= f.submit '登録' %>
+<% end %>

@@ -1,0 +1,13 @@
+<% if flash[:notice] %>
+<%= flash[:notice] %>
+<% end %>
+
+<% @tweet.each do |e| %>
+<p><%= e.message %></p>
+<p><%= e.tdate %></p>
+<p><%= link_to '表示', "/tweets/#{e.id}" %></p>
+<p><%= link_to '削除', "/tweets/#{e.id}", method: :delete %></p>
+<p><%= link_to '編集', "/tweets/#{e.id}/edit" %></p>
+<% end %>
+
+<%= link_to 'ツイートする','/tweets/new' %>
