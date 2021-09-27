@@ -2,10 +2,13 @@
     width: 980px;
     margin: 0 auto;
 }
+h1{
+    margin: 0 auto;
+}
 
 h2 {
-    background-color:#FFFFCC;
-    border-bottom: dashed 3px #555555;
+    background-color:#99FFCC;
+    border-bottom: dashed 1px #555555;
 }
 
 #pageBody {
@@ -14,7 +17,7 @@ h2 {
 }
 
 #pageSub{
-    width: 220px;
+    width: 200px;
     float: right;
 }
 
@@ -23,8 +26,9 @@ h2 {
     clear: both;
     border-top: solid 1px #cccccc;
 }
-#img-center{
-   size: 10px;
+
+#img-right{
+    margin-right: 50% ;
 }
 
 #img-center{
